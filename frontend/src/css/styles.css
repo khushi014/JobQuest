@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    color: #ffffff;
+    background-color: #176B87;
+}
+
+a.navbar-brand, a.navbar-brand:hover, a.navbar-brand:active, a.navbar-brand:visited{
+    color: #ffffff;
+    font-family: 'knewave';
+    font-size: x-large;
+}
+
+a.nav-link{
+    color:#eeeeee;
+}
+
+.navbar-nav a.nav-link.active{
+    color:#ffffff;
+    font-weight: bold;
+}
+
+a.nav-link:hover, a.nav-link.dropdown-toggle.show{
+    color:#eeeeee;
+    font-weight: bold;
+}
+
+
+/* Navbar.css */
+
+/* Add this style to show the dropdown on hover */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+  /* Optional: Add styles for a smoother transition */
+.dropdown-menu {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    display: none;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+/* Add hover and active styles to dropdown items */
+.nav-item.dropdown .dropdown-menu a.dropdown-item:hover,
+.nav-item.dropdown .dropdown-menu a.dropdown-item.active {
+  background-color: #176B87;
+  color: white;
+}
+
+/* Optional: Add transition for smoother effect */
+.dropdown-menu a.dropdown-item {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer{
+    padding: 20px;
+    color: #ffffff;
+    background-color: #176B87;
+    margin-top: 30px;
+}
+
+footer label{
+    font-weight: bold;
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.copyRights{
+    background-color: #021C26;
+    color: #ffffff;
+}
+
+.nocss{
+    background-color: white!important;
+    border: 0!important;
+    padding-left: 0!important;
+
+}
+
+.recruitersInfo input, .recruitersInfo select {
+    width: 250px;
+    margin: 1px 10px;
+    padding-left: 15px;
+    background-color: #f2f2f2;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+}
+
+.recruitersInfo button{
+    background-color: #176B87;
+    color: #ffffff;
+    border: 1px solid #053B50;
+    width: 250px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.loginR{
+    min-height: 60vh;
+}
+
+.loginForm{
+    padding: 50px;
+    border-radius: 20px;
+    width: 300px;
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.loginForm input{
+    background-color: #f2f2f2;
+    margin: 5px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+    width: 200px;
+}
+
+.loginForm button{
+    background-color: #176B87;
+    color: #ffffff;
+    border: 1px solid #053B50;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.herosection img{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    left: 0;
+}
+
+@media (max-width: 20000px) {
+    .herosection span{
+        position: relative;
+        color: #053B50;
+        font-size: 2.5em;
+        font-family: 'Lilita One', sans-serif;
+        font-weight: bold;
+        top: 40%;
+        left: 20%;
+    }
+    }
+
+@media (max-width: 768px) {
+    .herosection span {
+        font-size: 1.7em; /* Adjust the font size for mobile screens */
+        top: 20%; /* Adjust the positioning for mobile screens */
+        left: 10%; /* Adjust the positioning for mobile screens */
+        position: absolute;
+        color: #053B50;
+        font-family: 'Lilita One', sans-serif;
+        font-weight: bold;
+    }
+}
+
+.herosection .row{
+    height: 500px;
+}
+
+.herosection div{
+    padding: 0 !important;
+}
+
+.herosection input,.herosection button{
+    position: relative;
+    top: 40%;
+    left: 20%;
+    margin: 4px;
+
+}
+
+.herosection button, .compHiring button{
+    background-color: #176B87;
+    color: #ffffff;
+    border: 1px solid #053B50;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.herosection input{
+    background-color: #f2f2f2;
+    margin: 5px;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+}
+
+.compHiring h4{
+    margin: 50px;
+}
+.compImg{
+    padding: 30px 0px;
+    border-radius: 30px;
+}
+.compImg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.compImg span{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #053B50;
+    font-size: large;
+}
+.remPadding{
+    padding: 0!important;
+}
+.remMargin{
+    margin: 0!important;
+
+}
+
+.findJobs{
+    /* margin: 50px 0px; */
+    padding: 30px 0px;
+    background-color: #eeeeee;
+}
+
+.jobBox{
+    margin: 30px 0px;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    border:0;
+    background-color: #176B87;
+    color: #ffffff;
+    font-size: 1.8em;;
+}
+
+.btn{
+    background-color: #176B87;
+    color: #ffffff;
+}
+
+.searchJob{
+    margin: auto;
+    width: 400px;
+}
+.JobComponent{
+    border: 1px solid #176B87;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.JobComponent button{
+    background-color: #176B87;
+    color: #ffffff;
+    border:0;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.myprofile{
+    margin:30px 0px;
+}
+.myprofile tr{
+    height: 35px;
+}
+.myprofile span{
+    font-weight: bold;
+    color: #053B50;
+}
+
+
+.sidebar .nav-link.active {
+    color:#000000;
+}
+
+.pageNotFound{
+    min-height: 50vh;
+}
+.pageNotFound h1{
+    margin: 50px;
+}
+
+.myprofile button{
+    background-color: #176B87;
+    color: #ffffff;
+    border:0;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.jobposted{
+    margin: 30px;
+    border: 1px solid #176B87;
+}
+
+.jobposted span{
+    font-weight: bold;
+    color: #053B50;
+}
